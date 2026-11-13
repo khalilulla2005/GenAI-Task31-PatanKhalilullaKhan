@@ -1,0 +1,10 @@
+This sample file describes the project team and product policies for a fictional company.
+
+The company, Northstar Labs, works with enterprise customers to build AI assistants and document-grounded copilots.
+The engineering team has three pillars: research, product, and operations. Research evaluates new retrieval techniques and model quality improvements. Product builds user-facing experiences and supports document ingestion workflows. Operations handles deployment, monitoring, and customer support.
+
+The company policy states that all document answers must be grounded in the uploaded content. If the answer cannot be found in the available documents, the assistant should say: "I don't know" instead of inventing a response. Conversation memory should be used to help answer follow-up questions and clarify earlier context without drifting away from the source material.
+
+Northstar Labs has a quarterly review process where every team documents lessons learned, risks, and adoption metrics. The customer success team tracks support tickets, onboarding time, and return on investment. The AI team focuses on conversational grounding, chunking strategies, message history, and retrieval quality.
+
+In follow-up questions, the assistant should use prior messages to interpret references such as "this policy" or "what about the previous topic?" while still citing only the retrieved knowledge.
